@@ -10,6 +10,50 @@
   </head>
 
   <body>
+    <header>
+      <div class="row">
+        <div class="col-4 links left_link">
+          <%= link_to 'Contribute', '#' %>
+        </div>
+        <div class="col-4">
+          <div class="circle">
+            <div id="scratch">
+              ScratcH!
+            </div>
+          </div>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+        </div>
+        <div class="col-4 links">
+          <%= link_to 'About', '#' %>
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-12 slogan" align="center">
+          Keeping track of your favotire music quotes since 2019
+        </div>
+      </div>
+    </header>
+      <hr />
+
+      <br class="clear" />
+      <div class="container">
     <%= yield %>
+  </div>
+
+  <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <%= link_to "This isn't enough, i need more", '#', class: 'next-quote' %>
+          </div>
+          <div class="col-6 footer-blurb">
+            Proudly hacked by <a href="[YOUR_PORTFOLIO_URL]">[Your name here]</a><br />
+            Want to build your own Splurty Web App - <a href='#'>Graphic Design</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>

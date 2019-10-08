@@ -1,0 +1,92 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Anton|Knewave|Sedgwick+Ave+Display&display=swap');
+
+.clear {
+  clear: both;
+}
+
+.links, .links a{
+  color: white;
+  top: 23px;
+  position: relative;
+  font-size: 25px;
+  font-family: 'Knewave', cursive;
+  text-shadow: 3px 2px #252525;
+}
+
+.left_link {
+  text-align: right;
+}
+
+h1, h2 {
+  color: white;
+  text-align: center;
+
+}
+body {
+  background: #000000;
+  color: white;
+}
+.circle {
+  position: relative;
+  border-radius: 100%;
+  background: #black;
+  border: 10px solid #F7F7F7;
+  width: 120px;
+  height: 120px;
+  margin: 5px auto;
+  text-align: center;
+  color: red;
+  text-shadow: 3px 2px #252525;
+  text-indent: -30px;
+  line-height: 105px;
+  font-size: 44px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  cursor: pointer;
+}
+
+#scratch {
+  transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg); /* IE 9 */
+  -webkit-transform: rotate(-15deg); /* Opera, Chrome, and Safari */
+}
+
+.circle::before, .circle::after {
+  content: "";
+  position: absolute;
+  left: -590px;
+  top: 50%;
+  height: 1px;
+  width: 540px;
+  border-bottom: 5px solid red;
+  z-index: -3;
+}
+.circle::after {
+  left: auto;
+  right: -590px;
+}
+.circle:hover {
+  border-color: red;
+}
+
+.slogan {
+  color: white;
+  font-family: 'Knewave', cursive;
+  font-size: 15px;
+}
+.quote {
+  font-family: 'Anton', sans-serif;
+}
+
+.next-quote {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+}
+
+.footer-blurb {
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+  color: white;
+  text-align: right;
+}
