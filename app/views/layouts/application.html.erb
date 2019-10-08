@@ -13,14 +13,16 @@
     <header>
       <div class="row">
         <div class="col-4 links left_link">
-          <%= link_to 'Contribute', '#' %>
+          <%= link_to 'Contribute', new_quote_path %>
         </div>
         <div class="col-4">
+          <%= link_to root_path, class: 'logo' do %>
           <div class="circle">
             <div id="scratch">
               ScratcH!
             </div>
           </div>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+          <% end %>
         </div>
         <div class="col-4 links">
           <%= link_to 'About', '#' %>
@@ -44,7 +46,7 @@
       <div class="container">
         <div class="row">
           <div class="col-6">
-            <%= link_to "This isn't enough, i need more", '#', class: 'next-quote' %>
+            <%= link_to "This isn't enough, i need more", root_path, class: 'next-quote' %>
           </div>
           <div class="col-6 footer-blurb">
             Proudly hacked by <a href="[YOUR_PORTFOLIO_URL]">[Your name here]</a><br />
