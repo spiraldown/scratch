@@ -24,7 +24,9 @@ h1, h2 {
 
 }
 body {
-  background: #000000;
+  // background: #000000;
+  background: image_url('background.jpg');
+  background-position: 50% 0;
   color: white;
 }
 .circle {
@@ -76,12 +78,14 @@ body {
 }
 .quote {
   font-family: 'Anton', sans-serif;
+  text-shadow: 3px 2px #252525;
 }
 
 .next-quote {
   color: white;
   font-family: 'Anton', sans-serif;
   font-size: 20px;
+  text-shadow: 3px 2px #252525;
 }
 
 .footer-blurb {
@@ -93,4 +97,12 @@ body {
 
 .logo:hover {
   text-decoration: none;
+}
+
+.modal {
+  font-family: 'Anton', sans-serif;
+}
+
+.modal-content {
+  background-color: #3a3838 ;
 }

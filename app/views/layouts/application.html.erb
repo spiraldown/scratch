@@ -31,7 +31,7 @@
     </div>
 
       <div class="row">
-        <div class="col-12 slogan" align="center">
+        <div class="col-12 hidden-xs-down slogan" align="center">
           Keeping track of your favotire music quotes since 2019
         </div>
       </div>
@@ -51,9 +51,9 @@
       </div>
       <div class="modal-body">
         <%= simple_form_for Quote.new do |f| %>
-          <%= f.input :saying %>
-          <%= f.input :author %>
-        
+          <%= f.input :saying, label: "What is your favorite quote to add?", placeholder: "Example: Emptyness is filling me, to the point of agony" %>
+          <br />
+          <%= f.input :author, label: "What is the name of the artist?", placeholder: "Example: Metallica" %>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
