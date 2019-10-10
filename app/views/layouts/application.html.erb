@@ -13,7 +13,8 @@
     <header>
       <div class="row">
         <div class="col-4 links left_link">
-          <%= link_to 'Contribute', new_quote_path %>
+            <!-- Button trigger modal -->
+            <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
         </div>
         <div class="col-4">
           <%= link_to root_path, class: 'logo' do %>
@@ -25,7 +26,7 @@
           <% end %>
         </div>
         <div class="col-4 links">
-          <%= link_to 'About', '#' %>
+          <%= link_to 'About', about_path %>
       </div>
     </div>
 
@@ -35,6 +36,34 @@
         </div>
       </div>
     </header>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contribute your favorite quote.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <%= simple_form_for Quote.new do |f| %>
+          <%= f.input :saying %>
+          <%= f.input :author %>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <%= f.submit 'Create', class: 'btn btn-danger' %>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
       <hr />
 
       <br class="clear" />
