@@ -8,6 +8,7 @@ class QuotesController < ApplicationController
     if @quote.invalid?
       flash[:error] = '<strong> Invalid entry. </strong> Entries can only be a minimum of 3 or maxmimum of 140 characters.'
     end
+    flash[:success] = '<strong> Quote accepted! </strong> Please click show me another quote to refresh'
     redirect_to root_path
   end
 

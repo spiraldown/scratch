@@ -18,11 +18,10 @@
   text-align: right;
 }
 
-h1, h2 {
+h2 {
   color: white;
-  text-align: center;
-
 }
+
 body {
   // background: #000000;
   background: image_url('background.jpg');
@@ -75,10 +74,12 @@ body {
   color: white;
   font-family: 'Knewave', cursive;
   font-size: 15px;
+  text-align: center;
 }
 .quote {
   font-family: 'Anton', sans-serif;
   text-shadow: 3px 2px #252525;
+  text-align: center;
 }
 
 .next-quote {
@@ -105,4 +106,8 @@ body {
 
 .modal-content {
   background-color: #3a3838 ;
+}
+
+.alert {
+  text-align: center;
 }
