@@ -7,16 +7,26 @@
 }
 
 .links, .links a{
-  color: white;
+  // color: white;
   top: 23px;
   position: relative;
   font-size: 25px;
   font-family: 'Knewave', cursive;
   text-shadow: 3px 2px #252525;
+
 }
 
 .left_link {
   text-align: right;
+}
+
+.test {
+  color: white;
+    text-decoration: none;
+}
+.test:hover {
+  color: red;
+  text-decoration: none;
 }
 
 h2 {
@@ -88,6 +98,10 @@ body {
   font-size: 20px;
   text-shadow: 3px 2px #252525;
 }
+.next-quote:hover {
+  color: red;
+  text-decoration: none;
+}
 
 .footer-blurb {
   font-family: 'Anton', sans-serif;
@@ -118,6 +132,10 @@ body {
 
 .portfolio {
   color: red;
+}
+.portfolio:hover {
+  color: white;
+  text-decoration: none;
 }
 .social {
   font-size: 60px;

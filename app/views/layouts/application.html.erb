@@ -14,7 +14,7 @@
       <div class="row">
         <div class="col-4 links left_link">
             <!-- Button trigger modal -->
-            <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+            <%= link_to 'Contribute', '#', class: 'test', data: {toggle: 'modal', target: '#myModal'} %>
         </div>
         <div class="col-4">
           <%= link_to root_path, class: 'logo' do %>
@@ -26,7 +26,7 @@
           <% end %>
         </div>
         <div class="col-4 links">
-          <%= link_to 'About', about_path %>
+          <%= link_to 'About', about_path, class: 'test' %>
       </div>
     </div>
 
@@ -84,10 +84,10 @@
       <div class="container">
         <div class="row">
           <div class="col-6">
-            <%= link_to "Show me another quote!", root_path, class: 'next-quote' %>
+            <%= link_to "Click here to show me another music quote!", root_path, class: 'next-quote' %>
           </div>
           <div class="col-6 footer-blurb">
-            Proudly hacked by <a href="[YOUR_PORTFOLIO_URL]" class="portfolio">[Matthew Munos]</a><br />
+            Proudly hacked by <a href="https://www.linkedin.com/in/matthew-munos/" target="_blank" class="portfolio">[Matthew Munos]</a><br />
             <a href='https://matthewmunos.myportfolio.com/' target="_blank" class="portfolio">See my Portfolio here</a>
 
           </div>
