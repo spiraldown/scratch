@@ -1,3 +1,4 @@
+# Flixter
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+![Scratch Image 1](https://github.com/spiraldown/scratch/blob/master/scratch1.jpg?raw=true)
+
+![Scratch Image 2](https://github.com/spiraldown/scratch/blob/master/scratch2.jpg?raw=true)
+
+![Scratch Image 3](https://github.com/spiraldown/scratch/blob/master/scratch3.jpg?raw=true)
