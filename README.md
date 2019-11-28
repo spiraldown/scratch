@@ -1,5 +1,7 @@
 # SCRATCH
 
+Scratch is an app where a user can submit their favorite music quote. The submission is then stored into the database where it is randomly displayed on the index page for others to view. It was created using Ruby on Rails with additional gems as needed for funcationality and enhanced display. Some Javascript was used to help 
+
 This app was created using Ruby on Rails, Gems and some Java Script.
 
 This README would normally document whatever steps are necessary to get the
