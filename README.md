@@ -2,9 +2,13 @@
 
 Scratch is an app where a user can submit their favorite music quote. The submission is then stored into the database where it is randomly displayed on the index page for others to view. It was created using Ruby on Rails with additional gems as needed for funcationality and Javascript for closing prompts.
 
+### You can visit [SCRATCH Here](https://splurty-mmunos.herokuapp.com/)
 
+### Index
 
 ![Scratch Image 1](https://github.com/spiraldown/scratch/blob/master/scratch1.jpg?raw=true)
+
+### Submission Form
 
 ![Scratch Image 2](https://github.com/spiraldown/scratch/blob/master/scratch2.jpg?raw=true)
 
