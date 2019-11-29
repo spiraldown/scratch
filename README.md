@@ -5,15 +5,15 @@ Scratch is an app where a user can submit their favorite music quote. The submis
 ### You can visit [SCRATCH Here](https://splurty-mmunos.herokuapp.com/)
 
 ### Index
-
+Index page when visiting. Navigation up top with links at bottom of app for refreshing of random quote and portfolio link
 ![Scratch Image 1](https://github.com/spiraldown/scratch/blob/master/scratch1.jpg?raw=true)
 
 ### Submission Form
-
+Section for submitting a users quote and artist to the database. 
 ![Scratch Image 2](https://github.com/spiraldown/scratch/blob/master/scratch2.jpg?raw=true)
 
 ### About Page
-Section for giving some basic information about the App, social media links and email address for contact. 
+Section for basic information about the App, social media links and email address for contact. 
  
 ![Scratch Image 3](https://github.com/spiraldown/scratch/blob/master/scratch3.jpg?raw=true)
 
